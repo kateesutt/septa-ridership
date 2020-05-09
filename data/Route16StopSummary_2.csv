@@ -1,0 +1,165 @@
+﻿Route,Direction,StopCode,Stop,Ons,Offs,Load,Pass_Mi,Lat,Long,Ridership
+16,Northbound,515,15th St & Market St,489,0,22,122.9,39.952796,-75.165359,489
+16,Northbound,15455,Broad St & 65th Av,6,22,25,88,40.051963,-75.141777,28
+16,Northbound,15463,Broad St & 66th Av,46,100,24,107.4,40.053462,-75.141418,146
+16,Northbound,15465,Broad St & 67th Av - FS,11,50,23,64.1,40.0554,-75.141014,61
+16,Northbound,15468,Broad St & 68th Av,9,45,21,75.7,40.056632,-75.140777,54
+16,Northbound,17330,Broad St & 69th Av,13,33,20,73.7,40.058147,-75.140441,46
+16,Northbound,17332,Broad St & 70th Av,9,29,21,67.3,40.059673,-75.140129,38
+16,Northbound,15471,Broad St & 71st Av,8,44,20,93,40.061119,-75.139801,52
+16,Northbound,17317,Broad St & Albert Einstein Dr,1,18,27,130,40.036632,-75.145156,19
+16,Northbound,165,Broad St & Allegheny Av,180,123,35,171.4,40.001464,-75.152793,303
+16,Northbound,17261,Broad St & Arch St,196,14,31,106.9,39.954299,-75.163047,210
+16,Northbound,17269,Broad St & Brown St,27,17,32,62,39.967998,-75.160064,44
+16,Northbound,17301,Broad St & Butler St - FS,26,7,34,109.8,40.01099,-75.150756,33
+16,Northbound,17264,Broad St & Callowhill St - FS,17,6,31,150.9,39.959678,-75.161895,23
+16,Northbound,31383,Broad St & Cayuga St - FS,5,36,31,98.5,40.020431,-75.148681,41
+16,Northbound,17277,Broad St & Cecil B Moore Av,149,72,36,159.7,39.978504,-75.157814,221
+16,Northbound,17321,Broad St & Champlost Av,20,39,27,86.1,40.044357,-75.14347,59
+16,Northbound,15454,Broad St & Chelten Av,7,43,25,88.6,40.050491,-75.142127,50
+16,Northbound,17334,Broad St & Cheltenham Av,24,100,18,59.4,40.063194,-75.139282,124
+16,Northbound,17297,Broad St & Clearfield St - FS,0,0,35,115.7,40.000152,-75.153099,0
+16,Northbound,28697,Broad St & Courtland St - FS,8,12,29,110.4,40.023094,-75.148086,20
+16,Northbound,17286,Broad St & Cumberland St,17,23,35,132,39.99076,-75.155136,40
+16,Northbound,17283,Broad St & Dauphin St,52,13,36,129.9,39.987758,-75.155799,65
+16,Northbound,17281,Broad St & Diamond St - FS,13,26,35,110.8,39.984855,-75.15644,39
+16,Northbound,17314,Broad St & Duncannon Av,16,28,29,124,40.032089,-75.146156,44
+16,Northbound,30285,Broad St & Erie Av - FS,192,232,34,140.6,40.009395,-75.151107,424
+16,Northbound,17315,Broad St & Fisher Av,16,23,28,120.7,40.03363,-75.145805,39
+16,Northbound,164,Broad St & Girard Av,155,60,33,141.2,39.971282,-75.159332,215
+16,Northbound,17291,Broad St & Glenwood Av,39,30,34,159.4,39.996673,-75.153846,69
+16,Northbound,17323,Broad St & Godfrey Av,33,55,27,98.5,40.047351,-75.142791,88
+16,Northbound,17319,Broad St & Grange St,35,42,28,102.5,40.041294,-75.144134,77
+16,Northbound,17266,Broad St & Green St,9,7,32,117.8,39.963668,-75.161056,16
+16,Northbound,17304,Broad St & Hunting Park Av,23,58,32,92.9,40.016815,-75.149475,81
+16,Northbound,17287,Broad St & Huntingdon St,16,20,35,129.9,39.992267,-75.154815,36
+16,Northbound,17296,Broad St & Indiana Av,28,38,35,151.4,39.998447,-75.153457,66
+16,Northbound,17275,Broad St & Jefferson St,25,40,32,108.8,39.975742,-75.158363,65
+16,Northbound,17288,Broad St & Lehigh Av,134,110,34,147.6,39.993766,-75.154525,244
+16,Northbound,17313,Broad St & Lindley Av,94,52,29,127.6,40.030529,-75.146499,146
+16,Northbound,17310,Broad St & Loudon St,24,28,29,119.8,40.026058,-75.147468,52
+16,Northbound,17303,Broad St & Lycoming St - FS,6,40,33,122.4,40.015407,-75.149772,46
+16,Northbound,17274,Broad St & Master St,15,17,32,107.9,39.97438,-75.15866,32
+16,Northbound,17324,Broad St & Medary Av,5,14,26,97,40.048923,-75.142463,19
+16,Northbound,17278,Broad St & Montgomery Av - FS,15,7,36,104.9,39.980377,-75.157424,22
+16,Northbound,17320,Broad St & Nedro Av,11,28,27,107.3,40.042793,-75.143775,39
+16,Northbound,17280,Broad St & Norris St,18,15,36,156,39.983043,-75.156829,33
+16,Northbound,17298,Broad St & Ontario St - FS,43,70,34,110.2,40.004829,-75.152107,113
+16,Northbound,17276,Broad St & Oxford St,72,48,33,110.3,39.977127,-75.158111,120
+16,Northbound,17270,Broad St & Parrish St,14,7,31,87.7,39.968868,-75.159866,21
+16,Northbound,17302,Broad St & Pike St,16,20,34,284,40.012222,-75.150497,36
+16,Northbound,17279,Broad St & Polett Walk,12,8,36,123.9,39.981601,-75.157142,20
+16,Northbound,17271,Broad St & Poplar St,16,19,32,86.3,39.970081,-75.159576,35
+16,Northbound,17262,Broad St & Race St,72,14,31,151.3,39.956104,-75.162666,86
+16,Northbound,17268,Broad St & Ridge Av,44,29,31,124.4,39.966255,-75.160415,73
+16,Northbound,28696,Broad St & Rising Sun Av - FS,23,28,34,139.5,40.003326,-75.152412,51
+16,Northbound,17311,Broad St & Rockland St,22,46,29,121.1,40.027549,-75.147132,68
+16,Northbound,17305,Broad St & Roosevelt Blvd,105,94,32,211.9,40.017913,-75.14923,199
+16,Northbound,17312,Broad St & Ruscomb St,22,31,29,116.1,40.029048,-75.146728,53
+16,Northbound,20414,Broad St & S Penn Square,187,7,26,187.5,39.951435,-75.163719,194
+16,Northbound,17290,Broad St & Somerset St,10,9,34,110.9,39.995422,-75.154174,19
+16,Northbound,17316,Broad St & Somerville Av,5,27,28,116.5,40.03516,-75.145484,32
+16,Northbound,15450,Broad St & Spencer St,4,37,26,109.3,40.045646,-75.143173,41
+16,Northbound,17265,Broad St & Spring Garden St,91,30,32,117.7,39.96199,-75.161369,121
+16,Northbound,17282,Broad St & Susquehanna Av,76,72,36,138.2,39.986148,-75.156143,148
+16,Northbound,17318,Broad St & Tabor Rd,269,374,27,211.2,40.03828,-75.144706,643
+16,Northbound,17273,Broad St & Thompson St,23,11,33,102.8,39.973087,-75.158958,34
+16,Northbound,17299,Broad St & Tioga St,87,85,37,138.9,40.006031,-75.151832,172
+16,Northbound,17300,Broad St & Venango St,19,20,37,165.8,40.007556,-75.151473,39
+16,Northbound,17263,Broad St & Vine St - FS,23,6,31,77.4,39.958477,-75.162117,29
+16,Northbound,17267,Broad St & Wallace St - FS,14,18,32,65,39.965328,-75.160621,32
+16,Northbound,17308,Broad St & Wingohocking St - FS,20,46,30,122.6,40.021598,-75.148422,66
+16,Northbound,17309,Broad St & Wyoming Av,60,56,29,128.4,40.024471,-75.147827,116
+16,Northbound,17284,Broad St & York St,24,30,35,132.6,39.989242,-75.155471,54
+16,Northbound,18264,Cheltenham Av & 78th St,1,66,8,23.5,40.072162,-75.15467,67
+16,Northbound,15489,Cheltenham Av & 79th Av - FS,45,61,7,43,40.072929,-75.156066,106
+16,Northbound,17341,Cheltenham Av & Andrews Av,7,31,12,34.7,40.068481,-75.148208,38
+16,Northbound,15477,Cheltenham Av & Cedar Ln,6,26,15,40.3,40.066852,-75.145385,32
+16,Northbound,15476,Cheltenham Av & Euston Rd,2,41,16,48.7,40.066062,-75.144012,43
+16,Northbound,17335,Cheltenham Av & Keenan St,1,6,17,47.8,40.064754,-75.141731,7
+16,Northbound,15482,Cheltenham Av & Massey Way,0,45,11,58.9,40.069171,-75.149436,45
+16,Northbound,136,Cheltenham Av & Ogontz Av Loop,84,206,0,0,40.074832,-75.159095,290
+16,Northbound,15478,Cheltenham Av & Penrose Av,7,73,13,49.1,40.067531,-75.14656,80
+16,Northbound,15475,Cheltenham Av & Sycamore Av,1,9,17,39.4,40.065471,-75.142967,10
+16,Northbound,15486,Cheltenham Av & Tulpehocken St,1,26,10,43.2,40.070991,-75.152664,27
+16,Northbound,17344,Cheltenham Av & Williams Way,1,39,10,20.1,40.07048,-75.151786,40
+16,Southbound,515,15th St & Market St,10,505,2,0,39.952796,-75.165359,515
+16,Southbound,15575,Broad St & 65th Av,22,5,37,128.8,40.052181,-75.141899,27
+16,Southbound,15574,Broad St & 66th Av,169,59,36,129.3,40.053703,-75.141616,228
+16,Southbound,15573,Broad St & 67th Av,69,15,32,117.6,40.055248,-75.141258,84
+16,Southbound,15559,Broad St & 68th Av,65,7,31,117.2,40.056816,-75.140869,72
+16,Southbound,15530,Broad St & 69th Av,43,14,30,103.6,40.058326,-75.140533,57
+16,Southbound,15513,Broad St & 70th Av,55,9,28,100.1,40.059833,-75.140205,64
+16,Southbound,15512,Broad St & 71St Av,66,9,25,99.9,40.061382,-75.139869,75
+16,Southbound,15504,Broad St & 72nd Av,49,19,24,90.9,40.062911,-75.139602,68
+16,Southbound,28698,Broad St & Albert Einstein Dr,8,5,28,126,40.036945,-75.145233,13
+16,Southbound,21194,Broad St & Allegheny Av,124,134,30,149.6,40.001705,-75.152961,258
+16,Southbound,5131,Broad St & Arch St,11,160,16,96.2,39.954524,-75.163322,171
+16,Southbound,15974,Broad St & Belfield Av - FS,12,8,29,99.2,40.022811,-75.148338,20
+16,Southbound,17160,Broad St & Berks St,8,14,28,107.8,39.981811,-75.157318,22
+16,Southbound,5144,Broad St & Brown St,10,27,25,80.5,39.96796,-75.160362,37
+16,Southbound,15986,Broad St & Butler St,9,27,30,122.4,40.010902,-75.150924,36
+16,Southbound,17169,Broad St & Callowhill St,1,3,23,77.1,39.959686,-75.162178,4
+16,Southbound,17162,Broad St & Cecil B Moore Av,65,130,26,108.8,39.978759,-75.157966,195
+16,Southbound,15741,Broad St & Champlost Av,62,18,40,145.5,40.044536,-75.143562,80
+16,Southbound,15578,Broad St & Chelten Av,47,7,38,138,40.050662,-75.142204,54
+16,Southbound,5169,Broad St & Clearfield St - FS,14,17,30,101.1,39.999874,-75.153366,31
+16,Southbound,17135,Broad St & Cumberland St,26,27,27,140.6,39.990962,-75.155311,53
+16,Southbound,17137,Broad St & Dauphin St,32,27,29,121.5,39.987991,-75.155967,59
+16,Southbound,17158,Broad St & Diamond St,25,21,28,113.3,39.984828,-75.156661,46
+16,Southbound,15784,Broad St & Duncannon Av,15,25,26,151.1,40.032249,-75.146263,40
+16,Southbound,29964,Broad St & Erie Av,193,170,30,133.9,40.009368,-75.15126,363
+16,Southbound,15778,Broad St & Fisher Av,19,16,27,122.4,40.033798,-75.145927,35
+16,Southbound,15790,Broad St & Fishers Ln,52,63,26,110.3,40.030353,-75.14669,115
+16,Southbound,143,Broad St & Girard Av,55,121,25,72.9,39.97158,-75.159568,176
+16,Southbound,17129,Broad St & Glenwood Av,26,50,29,101.3,39.996887,-75.154022,76
+16,Southbound,15743,Broad St & Grange St,16,22,41,265.7,40.041519,-75.144233,38
+16,Southbound,15721,Broad St & Green Ln,4,4,39,118.7,40.045856,-75.143264,8
+16,Southbound,17167,Broad St & Green St,5,30,25,47.1,39.963443,-75.161285,35
+16,Southbound,30489,Broad St & Hunting Park Av,121,97,29,152.1,40.017257,-75.149551,218
+16,Southbound,17134,Broad St & Huntingdon St,17,22,27,114.5,39.992473,-75.154991,39
+16,Southbound,17127,Broad St & Indiana Av,26,31,30,141.8,39.998634,-75.153633,57
+16,Southbound,17163,Broad St & Jefferson St,24,16,26,87.8,39.975959,-75.158607,40
+16,Southbound,17133,Broad St & Lehigh Av - FS,79,142,27,76.9,39.993495,-75.154777,221
+16,Southbound,15802,Broad St & Loudon St,10,25,27,120,40.026218,-75.14759,35
+16,Southbound,15983,Broad St & Lycoming St,18,9,31,246.5,40.015392,-75.149955,27
+16,Southbound,5252,Broad St & Master St,22,31,26,86.5,39.974613,-75.158897,53
+16,Southbound,15580,Broad St & Medary Av,15,4,38,108.1,40.049091,-75.142585,19
+16,Southbound,17161,Broad St & Montgomery Av,5,11,28,109.5,39.980304,-75.157646,16
+16,Southbound,15742,Broad St & Nedro Av,30,16,42,140.7,40.042999,-75.143898,46
+16,Southbound,17159,Broad St & Norris St,15,25,27,104.8,39.983264,-75.156997,40
+16,Southbound,17225,Broad St & Olney Av - FS,351,582,27,142.6,40.038745,-75.144943,933
+16,Southbound,17120,Broad St & Ontario St - FS,51,41,31,124,40.004524,-75.15232,92
+16,Southbound,5273,Broad St & Oxford St - FS,31,57,25,77.7,39.977127,-75.158317,88
+16,Southbound,5277,Broad St & Parrish St,13,13,25,66.5,39.969093,-75.160133,26
+16,Southbound,15985,Broad St & Pike St,7,20,32,119.9,40.012382,-75.150604,27
+16,Southbound,17164,Broad St & Poplar St,12,21,25,73.9,39.97034,-75.159828,33
+16,Southbound,17170,Broad St & Race St,15,54,21,85.3,39.956359,-75.162933,69
+16,Southbound,17165,Broad St & Ridge Av - FS,36,44,26,73.2,39.96656,-75.160667,80
+16,Southbound,15801,Broad St & Rockland St,35,36,27,118,40.027721,-75.147254,71
+16,Southbound,15797,Broad St & Ruscomb St - FS,16,14,27,99.8,40.028976,-75.147048,30
+16,Southbound,15978,Broad St & Saint Lukes St - MBFS,6,22,29,144.8,40.019084,-75.149147,28
+16,Southbound,17132,Broad St & Somerset St,11,11,29,169.5,39.995632,-75.15435,22
+16,Southbound,15775,Broad St & Somerville Av,22,18,28,122,40.035354,-75.145591,40
+16,Southbound,17168,Broad St & Spring Garden St,18,66,23,150.7,39.962581,-75.161499,84
+16,Southbound,15588,Broad St & Stenton Av,69,26,39,183,40.047863,-75.142845,95
+16,Southbound,17138,Broad St & Susquehanna Av,50,89,27,111.6,39.986373,-75.156311,139
+16,Southbound,5328,Broad St & Thompson St,7,17,26,108.4,39.973285,-75.159233,24
+16,Southbound,17118,Broad St & Tioga St,77,78,31,140.5,40.006237,-75.151947,155
+16,Southbound,17117,Broad St & Venango St,28,14,30,121.4,40.00772,-75.151626,42
+16,Southbound,31123,Broad St & Vine St,4,36,23,90.4,39.958179,-75.162506,40
+16,Southbound,17166,Broad St & Wallace St,16,21,25,103.8,39.96527,-75.160957,37
+16,Southbound,17121,Broad St & Westmoreland Av - FS,35,36,31,109.6,40.003025,-75.152671,71
+16,Southbound,15975,Broad St & Wingohocking St,59,40,29,199.4,40.021545,-75.148597,99
+16,Southbound,15973,Broad St & Wyoming Av,69,55,28,147.1,40.024677,-75.147926,124
+16,Southbound,17136,Broad St & York St - FS,23,26,28,81.9,39.989093,-75.155723,49
+16,Southbound,28451,Cheltenham Av & 18th St,45,11,21,55.2,40.06668,-75.145301,56
+16,Southbound,16913,Cheltenham Av & 19th St,101,13,20,71.8,40.067543,-75.146766,114
+16,Southbound,16911,Cheltenham Av & 20th St,63,8,17,65.6,40.069431,-75.15007,71
+16,Southbound,15422,Cheltenham Av & 79th Av,66,0,15,51,40.072799,-75.156036,66
+16,Southbound,16912,Cheltenham Av & Andrews Av,47,5,17,70.7,40.068485,-75.148429,52
+16,Southbound,136,Cheltenham Av & Ogontz Av Loop,360,0,13,84.2,40.074832,-75.159095,360
+16,Southbound,28452,Cheltenham Av & Pitville Av,52,6,23,282.9,40.066062,-75.144218,58
+16,Southbound,16909,Cheltenham Av & Tulpehocken St,35,0,17,32.9,40.071006,-75.152954,35
+16,Southbound,16908,Cheltenham Av & Washington Ln,45,0,16,39.2,40.071758,-75.154197,45
+16,Southbound,16910,Cheltenham Av & Williams Way,57,1,17,65.6,40.070434,-75.151939,58

@@ -1,0 +1,85 @@
+fetch('https://opendata.arcgis.com/datasets/e09e9f98bdf04eada214d2217f3adbf1_0.geojson')
+.then(function(response){
+  return response.json();
+})
+.then(function(data){
+  var stopsCurrent = L.geoJson(data, {
+    pointToLayer: function (geoJsonPoint, latlng){
+      return L.circleMarker(latlng, {icon: stopsByRidership(geoJsonPoint)});
+    },
+    style: function(geoJsonFeature){
+      return{
+        fillColor: '#11a381',
+        radius: 4,
+        stroke: false,
+        fillOpacity: .20,
+      };
+    }
+  });
+  stopsCurrent.addTo(map);
+  map.fitBounds(stopsCurrent.getBounds());
+});
+
+
+
+var getSize = function(d){
+  d > 600 ? 50 :
+  d > 300 ? 44 :
+  d > 100 ? 38 :
+  d > 50  ? 32 :
+  d > 35  ? 26 :
+  d > 20 ? 20 :
+          14;
+}
+
+
+else if (num > 300){
+    return 44;
+  } else if (num > 150){
+    return 38;
+  } else if (num > 100){
+    return 32;
+  } else if (num > 50){
+    return 24;
+  } else if (num > 25){
+    return 18;
+  }
+
+function createStops() {
+  fetch(query)
+  .then(function(response){
+    return response.json();
+  })
+  .then(function(data){
+    var stopsCurrent = L.geoJson(data, {
+      pointToLayer: function (geoJsonPoint, latlng){
+        return L.circleMarker(latlng);
+      },
+      style: function(geoJsonFeature){
+        console.log(geoJsonFeature)
+        return{
+          fillColor: '#11a381',
+          radius: Math.sqrt((geoJsonFeature.properties.Weekday_Boards
+            +geoJsonFeature.properties.Weekday_Leaves/3)),
+          stroke: false,
+          fillOpacity: .25,
+        };
+      }
+    });
+    stopsCurrent.bindPopup(function (layer) {
+      console.log(layer.feature.properties);
+      return '<div class = "popup">'
+      + 'Route: ' + layer.feature.properties['Route'] + '<br>'
+      + 'Stop Name: '+ layer.feature.properties['Stop_Name'] + '<br>'
+      + 'Direction: '+ layer.feature.properties['Direction'] + '<br>'
+      + 'Weekday Ons: '+ layer.feature.properties['Weekday_Boards'] + '<br>'
+      + 'Weekday Offs: '+ layer.feature.properties['Weekday_Leaves'] + '<br>'
+      + 'Saturday Ons: '+ layer.feature.properties['Saturday_Boards'] + '<br>'
+      + 'Saturday Offs: '+ layer.feature.properties['Saturday_Leaves'] + '<br>'
+    })
+   stopsCurrent.addTo(map);
+  });
+}
+
+
+

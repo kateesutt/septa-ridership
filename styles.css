@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+#map{
+  position:absolute;
+  right: 0;
+  float: right;
+  height: 100%;
+  width: 72%;
+}
+
+
+#btn-group{
+  position: absolute;
+  top: 10;
+  right: 10;
+  z-index: 50000;
+  align-content: center; 
+}
+
+
+#sidebar{
+  float: left;
+  height: 100%;
+  width: 28%;
+  margin:10;
+  background-color: '#6c757d';
+  padding: 15px;
+}
+
+.overlay{
+  position: absolute;
+  background: white;
+  z-index:10000;
+}
+
+.subheading{
+  font-size: 0.7rem;
+}
