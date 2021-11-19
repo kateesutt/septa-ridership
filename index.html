@@ -6,25 +6,51 @@
   <!-- load my styles -->
   <link href = "styles.css" rel = "stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!--   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
   <div id = "sidebar">
     <h3 class = "heading"> SEPTA Ridership </h3> 
-    <p id = "subheading">Visualize stop-level ridership for the Fall 2019 season at the Southeastern Pennsylvania Transportation Authority.</p> 
-    <img src="216661-20.png"  id="location-guy"> Philadelphia, PA
-    <br> <br>
-    Choose a mode:
+    <p id = "subheading">Visualize stop-level ridership for the Fall 2019 season at the <a href="http://www.septa.org/" target="_blank">Southeastern Pennsylvania Transportation Authority</a>.</p> 
+    <p id='philly-marker'> <i class="fas fa-map-marker-alt"></i> Philadelphia, PA </p>
+    <br> 
+    <div id='mode-selection'>
+     Choose a mode:
     <div class="btn-group" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-secondary" id="all-modes-button">All Modes</button>
-      <button type="button" class="btn btn-secondary" id="trolley-button">Trolley</button>
-      <button type="button" class="btn btn-secondary" id="rail-button">Heavy Rail</button>
+      <button type="button" class="btn btn-dark" id="all-modes-button">All Modes</button>
+      <button type="button" class="btn btn-dark" id="trolley-button">Trolley</button>
+      <button type="button" class="btn btn-dark" id="rail-button">Heavy Rail</button>
+    </div> 
     </div>
-    <br> <br>
-
-    Or choose a route: <input type="text" id="route-input" placeholder="eg 16 or MFL"/>
+    <div id = "input-line">
+      Or choose a route: <input type="text" id="route-input" placeholder="eg 16 or MFL"/>
+    </div>
+    <button type="button" class="btn btn-dark btn-sm" id = "calculate">Go</button>
     <br>
     <br>
-    <input type="button" id="calculate" value="Go" />
+    <br>
+    <div id="map-title">
+      Route Legend
+    </div>
+    <dl>
+      <dt class="MFL"></dt>
+      <dd>Market Frankford Line</dd><br>
+      <dt class="BSL"></dt>
+      <dd>Broad Street Line</dd><br>
+      <dt class="NHSL"></dt>
+      <dd>Norriston High Speed Line</dd><br>
+      <dt class="Trolley"></dt>
+      <dd>Trolley</dd><br>
+      <dt class="Bus"></dt>
+      <dd>Bus</dd><br>
+    </dl>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <span id = 'data-source'> <i class="fas fa-external-link-alt"></i> Data available <a href="https://septaopendata-septa.opendata.arcgis.com/datasets/fall-2021-stops-by-route/explore" target="_blank">here</a></span>
   </div>
   <div id = "map">
 
@@ -40,6 +66,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script src ="route16_JSON.js"></script>
+  <script src="https://kit.fontawesome.com/9400837b46.js" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -7,30 +7,6 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.
   maxZoom: 18
 }).addTo(map);
 
-//
-// var loadData = function(route){
-//   for(var i = 0; i < route.length - 1; i++){
-//     console.log(route);
-//     var pathOpts  = {'radius': Math.sqrt(route[i].Ridership)};
-//     L.circleMarker([route[i].Lat, route[i].Long], pathOpts)
-//     .addto(map);
-//   }
-// };
-//
-// var routePicker = document.querySelector('.route-picker');
-//
-// var checkRoutePicker = function(){
-//   if (routePicker == 'route16_JSON'){
-//     return route16_JSON;
-//   } else {}
-// };
-//
-// console.log(checkRoutePicker())
-//
-// routePicker.addEventListener('click', function(){
-//   loadData(checkRoutePicker)}
-// );
-
 
 
 var routeStyle = {
@@ -54,20 +30,12 @@ fetch('https://opendata.arcgis.com/datasets/39f74b6d8b1b4b608933b5358d55be1c_0.g
   routes.addTo(map);
 });
 
-
-//
-// var addRoute = function(){
-//   for(var i = 0; i < route16_JSON.length -1; i++){
-//     var pathOpts = {'radius': Math.sqrt(route16_JSON[i].Ridership)};
-//     L.circleMarker([route16_JSON[i].Lat, route16_JSON[i].Long], pathOpts)
-//     .addTo(map)};
-// }
-//
-// addRoute();
 var getSize = function(num){
-  if (num > 600){
-    return 30;
-  } else {
+    if (num == 'null') {
+    return 3
+  } else if (num < 1) {
+    return 3
+  }else {
     return Math.sqrt(num/3);
   }};
 
@@ -111,9 +79,6 @@ routeInput.addEventListener('change', function(e) {
   routeNumber = e.target.value
 })
 
-// function() {
-//   modeFilter = 'Trolley'
-// }
 
 var queryBase = "https://services2.arcgis.com/9U43PSoL47wawX5S/arcgis/rest/services/Spring_2019_Stops_By_Route/FeatureServer/0/query"
 var queryEnd = "returnGeometry=true&f=pgeojson&outFields=*"
@@ -152,13 +117,7 @@ function createStops() {
        fillOpacity = .6;
      }
 
-    // var pickacolor = function(){
-    //   if (geoJsonFeature.properties.Route == BSL){
-    //     return '#ff9900'
-    //   } else {
-    //     return '#11a381'
-    //   }
-    // }
+   
     stopsCurrent = L.geoJson(data, {
       pointToLayer: function (geoJsonPoint, latlng){
         return L.circleMarker(latlng);
@@ -181,8 +140,8 @@ function createStops() {
         }
         return{
           fillColor: pickacolor(geoJsonFeature),
-          radius: Math.sqrt((geoJsonFeature.properties.Weekday_Boards
-            +geoJsonFeature.properties.Weekday_Leaves)),
+          radius: getSize(geoJsonFeature.properties.Weekday_Boards
+            +geoJsonFeature.properties.Weekday_Leaves),
           stroke: false,
           fillOpacity: fillOpacity
         };
